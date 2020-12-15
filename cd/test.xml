@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<iso_project image_name="test.bin" cue_sheet="test.cue" no_xa="0">
+    <track type="data">
+        <identifiers
+			system			= "PLAYSTATION"
+			application		= "PLAYSTATION"
+			volume			= "MYDISC"
+			volume_set		= "MYDISC"
+			publisher		= "ME"
+			data_preparer	= "MKPSXISO"
+			copyright		= "COPYLEFT"
+		/>
+
+        <license file="cd/licensej.dat"/>
+
+        <directory_tree>
+            <file name="SYSTEM.CNF"	type="data"	source="cd/system.cnf"/>
+            <file name="MAIN.EXE" type="data" source="test.exe"/>
+
+            <file name="STONE.TIM" type="data" source="textures/stone.tim"/>
+            <file name="GRASS.TIM" type="data" source="textures/grass.tim"/>
+            <file name="MARBLE.TIM" type="data" source="textures/marble.tim"/>
+            <file name="ASPHALT1.TIM" type="data" source="textures/asphalt1.tim"/>
+            <file name="BRICKS1.TIM" type="data" source="textures/bricks1.tim"/>
+            <file name="RUST1.TIM" type="data" source="textures/rustymetal1.tim"/>
+            
+            <file name="LEVEL1.LVL" type="data" source="data/levels/level1.lvl"/>
+            
+            <file name="CUBE.MDL" type="data" source="data/models/cube/cube.mdl"/>
+
+            <file name="FOOTSTEP.VAG" type="data" source="sounds/footstep1.vag"/>
+
+            <dummy sectors="1024"/>
+        </directory_tree>
+    </track>
+</iso_project>
